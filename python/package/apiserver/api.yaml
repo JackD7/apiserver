@@ -1,0 +1,25 @@
+paths:
+  /ping:
+    get:
+      summary: Ping
+      description: Perform a ping to insure server is alive
+      operationId: API_Ping
+      responses:
+        '200':
+          description: Server is alive
+  /data:
+    post:
+      summary: Creates a data
+      operationId: API_createData
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content:
+                  type: string
+      responses: 
+        '201':
+          description: Created

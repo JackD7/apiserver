@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: api-server
+Version: 0.0.0.0
+Summary: API Server
+Home-page: 
+Author: JD
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.5
+
+.
+

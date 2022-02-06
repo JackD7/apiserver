@@ -1,0 +1,3 @@
+[console_scripts]
+api-server = package.apiserver.__main__:main
+
